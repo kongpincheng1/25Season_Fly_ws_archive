@@ -1,0 +1,22 @@
+# 这个配置文件告诉 ros_gz_bridge 需要桥接哪些话题
+
+-   # 桥接彩色摄像头图像
+    gz_topic_name: "/camera"
+    ros_topic_name: "/camera"
+    gz_type_name: "gz.msgs.Image"
+    ros_type_name: "sensor_msgs/msg/Image"
+    direction: GZ_TO_ROS
+
+-   # 桥接摄像头信息
+    gz_topic_name: "/camera_info"
+    ros_topic_name: "/camera_info"
+    gz_type_name: "gz.msgs.CameraInfo"
+    ros_type_name: "sensor_msgs/msg/CameraInfo"
+    direction: GZ_TO_ROS
+
+-   # 桥接深度摄像头图像
+    gz_topic_name: "/depth_camera"
+    ros_topic_name: "/depth_camera"
+    gz_type_name: "gz.msgs.Image"
+    ros_type_name: "sensor_msgs/msg/Image"
+    direction: GZ_TO_ROS

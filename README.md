@@ -10,3 +10,7 @@ git clone --recurse-submodules https://github.com/kongpincheng1/25Season_Fly_ws_
 ```bash
 colcon build 
 ```
+
+
+## 增加了gz_bridge的yaml文件
+
