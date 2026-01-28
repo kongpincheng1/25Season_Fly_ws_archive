@@ -11,10 +11,8 @@ git clone --recurse-submodules https://github.com/kongpincheng1/25Season_Fly_ws_
 colcon build 
 ```
 
-
-## 增加了gz_bridge的yaml文件
-桥接命令
+## 3.将gz话题桥接到ros话题
+在仓库根目录下运行桥接命令
 ```bash
-ros2 run ros_gz_bridge parameter_bridge --ros-args -p config_file:=/home/kpc/bridge_config.yaml
+./bridge.sh
 ```
-
