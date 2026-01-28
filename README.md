@@ -11,7 +11,13 @@ git clone --recurse-submodules https://github.com/kongpincheng1/25Season_Fly_ws_
 colcon build 
 ```
 
-## 3.将gz话题桥接到ros话题
+## 3. 安装依赖
+在仓库根目录下运行
+```bash
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn
+```
+
+## 4.将gz话题桥接到ros话题
 在仓库根目录下运行桥接命令
 ```bash
 ./bridge.sh
