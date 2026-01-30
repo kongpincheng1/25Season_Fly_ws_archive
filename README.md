@@ -1,6 +1,8 @@
 # 这是什么
 这是25赛季工作空间的存档，你可以直接clone这个工作空间，而不用一个一个单独克隆各类子项目。
 
+>你可以在[control子仓库](https://github.com/kongpincheng1/Fly_25Season_archive)和[detect子仓库](https://github.com/kongpincheng1/Detect_25Season_archive)中分别找到关于这两个子仓库更详细的介绍
+
 # 怎么做
 [视频教程](https://www.acfun.cn/v/ac48232789?shareUid=77466379?shareUid=77466379)
 
